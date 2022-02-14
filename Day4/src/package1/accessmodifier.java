@@ -1,10 +1,12 @@
 package package1;
-import package2.accessmodifier3;
-public class accessmodifier extends accessmodifier3{
-	private int id = 4;
-	public static void main(String args[]) {
-		accessmodifier2 a = new accessmodifier2();//default
-		accessmodifier3 b = new accessmodifier3();//public
+import package1.accessmodifier1;
+public class accessmodifier extends accessmodifier1
+{
+	private int id = 5;
+	public static void main(String args[]) 
+	{
+		accessmodifier1 a = new accessmodifier1();//default
+		accessmodifier1 b = new accessmodifier1();//public
 		accessmodifier c = new accessmodifier();//private
 		accessmodifier v = new accessmodifier();//protected
 
