@@ -2,7 +2,7 @@ abstract class abstractdemo
 {  
         void Rama() 
         {
-		System.out.println("Human");
+		System.out.println("Mahathma");
 		}
         
         abstract void cm();
@@ -10,14 +10,14 @@ abstract class abstractdemo
 
 class human extends abstractdemo
 {
-	void cm() 
+	void Krishna() 
 	{
-		System.out.println("Being");
+		System.out.println("Gandhi");
 	}
 	public static void main(String args[])
 	{  
 	human ob = new human();  
     ob.Rama();
-    ob.cm();
+    ob.Krishna();
 }  
 }  
